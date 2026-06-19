@@ -1,0 +1,8 @@
+@import "custom-variables";
+
+// TODO, properly fix the overflow on form-horizontal. This fixes the horizontal scrollbar that appeared.
+.login-context, .form-horizontal {
+    .mx-dataview-content {
+        overflow-x: hidden;
+    }
+}

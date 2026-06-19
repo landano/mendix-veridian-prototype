@@ -1,0 +1,3634 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "tools" : [
+      {
+        "vendor" : "CycloneDX",
+        "name" : "cyclonedx-gradle-plugin",
+        "version" : "1.10.0"
+      }
+    ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "pkg:maven/com.mendix/temp@1.0.0?type=jar",
+      "group" : "com.mendix",
+      "name" : "temp",
+      "version" : "1.0.0",
+      "purl" : "pkg:maven/com.mendix/temp@1.0.0?type=jar"
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar",
+      "group" : "net.i2p.crypto",
+      "name" : "eddsa",
+      "version" : "0.3.0",
+      "description" : "Implementation of EdDSA in Java",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ee7de3b6f19de76a06e465efc978f669"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1901c8d4d8bffb7d79027686cfb91e704217c3e1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4dda1120db856640dbec04140ed23242215a075fe127bdefa0dcfa29fb31267d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "637e75ef4b58b280af057546afc176dbf3becf2b69f7dd31a716a90e01c01d7b1bcd400b29efeeea6b34df9ade7922c0665a000a3a2db5a446df293f8d1429cc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e13f22b10a675c9a4180ac051c7e07b839e2131188837071e8760162377c649d7c56e64e279f5ff990547495535b4632"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fa7f056ced9efd6cd90b124ef97a63007d9fe68ffd954c9bbdc15229af958807122460a79aa46f1bcbfff0036afc71d4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "852e263100c291206a8a2afa9a2d9e6f486d3ef40a7fe3b1c3d58e5a8a2c8b60"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0a8c062bec2abdbf97028611b5001b392a433183c1467383e61deab3bf4481f3766c3c7290cdca8bd02a007d7dcd8f2ace99a6c07eb3f74aac48ecd139ba3884"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "CC0-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/str4d/ed25519-java"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "group" : "org.apache.commons",
+      "name" : "commons-text",
+      "version" : "1.10.0",
+      "description" : "Apache Commons Text is a library focused on algorithms working on strings.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4afc9bfa2d31dbf7330c98fcc954b892"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3363381aef8cef2dbc1023b3e3a9433b08b64e01"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "770cd903fa7b604d1f7ef7ba17f84108667294b2b478be8ed1af3bffb4ae0018"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "afd836a1094449e0a791fee67363666c47b6d24acff353a5089b837b332c0f4af89565c354682521e37062d20e6b52d70c77bb4f24cca9b9532c274fc708a831"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "06c56e6e513dd77cf10d0da46cdea08c34e220e81fa024735b668c6650df4234e564fe865ff5cafea963f56b1e8ffd4a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f09065ed066c25debf8c78cbb0bcc738e1ea283302ec992dcfb649acb90091cff879465c65a162e94534d454e3b4e9bb"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0b59c567164bb755f2353b78ba66744000a8c4b35e1df05255b080a21c3a3dd5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f0fbce02a862b70f472a27d0722c54ac111ca2eb94584b8b0b73d1926aec26047cd92542ad0b3cf980a6825077587f41b194aa93d6f6350d1b87e59e8df1be7c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/TEXT"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-text.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.18.0?type=jar",
+      "group" : "org.apache.commons",
+      "name" : "commons-lang3",
+      "version" : "3.18.0",
+      "description" : "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang. The code is tested using the latest revision of the JDK for supported LTS releases: 8, 11, 17 and 21 currently. See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml Please ensure your build environment is up-to-date and kindly report any build issues.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "48b9886957920a4cdb602780ca345087"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fb14946f0e39748a6571de0635acbe44e7885491"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c2c9d497fc1be411050f4011b2407764b78aa098eb42925af8a197eabdbc25b507f09fb898805e9bed4815f35236a508ee5b096e36f363df4d407232d50fc832"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4fb3f101106e4ce3666d5c15d276ba86f7683a0ef35f0384edfcd579ea454275edbb7400795d265ec3a38e39997e79b8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "aada7e3612cf3f6190a19fa7c3db74df1e13ec56b300be9bb4317d261d5877c84ab59ba9a09168becdbd82cd41961395"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "306d286d0bd7549c203cc802fd755d354c4f7926fa023f4e83623ba1a6261250"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f6f1ecc684e309d7b9fc5c343792508fee935cd2119d962721662c5af88e4864ba6f47a863e083714f315f926c156de1970cd2fb577449bdfdc7bf98a4a451fa"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.18.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/commons-lang/actions"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LANG"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf/commons-lang.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.pdfbox/pdfbox@2.0.30?type=jar",
+      "group" : "org.apache.pdfbox",
+      "name" : "pdfbox",
+      "version" : "2.0.30",
+      "description" : "The Apache PDFBox library is an open source Java tool for working with PDF documents.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "da9a5490ecf28832ee6d003f9bcd95bd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "730753a91f7f2c574eb09a8af7288065d1e551bd"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "abb468d07abe76e34efb3337d1cfd48e365241623320e277e8341ce3cd670760"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3727ede4a890c7c5c23e048fa037e013e8a3c85fcbe014e239c8c4dc7044a45b1143c4d773973f4f78032fb98d427486dd38f79f22dd6fb62dd713fee82e754f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d191b697ea322c23fe8a142fae04b8d84eb67d9852af5f7d89caf85db4c6573eafc830093f51edaa1622e6330090e860"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ba9f6d207a618edf1f9d496731538f2e774ce1238fb8252665cb1efedd4d17c85e319663cf2b8c9bd415ee17ea926bda"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9b62e73a41d0f73b805918bbc2c9da4c60e86d454366bf9ae56917264fc8d085"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "41f714619824293519067fd3ba3e7295595f447778e60b21209bd09a46222af0d8492d7cc6a72e1d16012d727402c9e3a1767959be788c5e3a49ad537f3bf3ad"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.pdfbox/pdfbox@2.0.30?type=jar",
+      "modified" : false
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib-common",
+      "version" : "1.9.10",
+      "description" : "Kotlin Common Standard Library",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "de4024a53c843e959f2d50ecd1f0e951"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "dafaf2c27f27c09220cee312df10917d9a5d97ce"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cde3341ba18a2ba262b0b7cf6c55b20c90e8d434e42c9a13e6a3f770db965a88"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e7166112e27edcbc1fb7b918bf66120b35f82311016f944472ebc23c848b81d7016660d5d1a3e7a1679e599c555d796d73c520a0d8178e00b36aa3668415170e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f2d3a3c33cc3d9f2c554b1afce255b885fc7914fe13ef316d743d9300e4231556250fd691306f4feae356e8f21c4f777"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "48ee306c706fe0579610e5105cd9688a25dd9f964ad1ba47b5da25f1e9dc686fb6e4703b5950cdfca28d33ad92e7817e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e6788f12612e7ba42187b1f8ad6a9fd316c2ef91ca917dca8093fe5696094b54"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "628d660c681fdcc2750a47b131a046409997b95cb2417f9ebcd69946fa678c6e15f1079008f9be6b7d356a0d6e9b6b27bcb6fd01cd5d0c47fc583690c081f6b9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-quicktx@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-quicktx",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - QuickTx Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "51410bc35973a42458326d58ea176f9e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7cb4b70b551a57fce678eb92fc9d645e5cfce903"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3435495462a7f20fabddd08a34149da79357c859a31648d88379d865e6f42d28"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "defd131afa9c1b770a8bb8c883171c7fc9de299018abf6f4161c171c3ce70d7e998dbf7bfef4e272bb5ace32611d573182f4518fefc9fe9e2304f8df328f4b87"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0846663b2cd9f706078fdad8109ad18d06ccc8e41e85c8c474a8dfc99b6982736a10da45c9f3d0bed5b210c4cbfd6d1c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "aaaa0873ff3c5cfce53a390b654a87912eed6243064417ee4eefe92134a03281378063c5aece3483ab8520047cc03161"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e9e78e3f13b3b03c2233134b5d18ad4a16b83cb447fca9c22455ed341aecc324"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "552a6936d3e5578dd285642f53c36eb6a49c2dde9440b9be23c1d7b62c05e3b96b31e92570d52aba75dbfed4457626a9d4bc68f3d572792d8037e0ed94fc52ae"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-quicktx@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar",
+      "group" : "com.google.guava",
+      "name" : "failureaccess",
+      "version" : "1.0.3",
+      "description" : "Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes are conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "29a782e90f6b37218b18bb880d2a8f4a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "aeaffd00d57023a2c947393ed251f0354f0985fc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cbfc3906b19b8f55dd7cfd6dfe0aa4532e834250d7f080bd8d211a3e246b59cb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "72be228e7805da5623e42bf024ded7d9147023c66b22f4dbd04ac6898201af46ee82e1f92ea51eb0595f1b49151c4b8ecb862653d4906c17609c42544ee97abf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9dd1a2a08efda311604992d3e7cee64873bc8c64de3b423b1b3a3dcc1f7f0810bb03901fbfe39a5f835accb0646f4ad8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ffd67766c165ee77e96824e06de2c19864a6e61f785b2085eb825f308f173d71f2555559d90d910f33f3367378ace0e3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "08a77b528a72ca412b36e4004692705ebfd75cfb4897c88632d367d08a34b09f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7cba6c266babbe8272f029eea6e2cbddadee96eb1a16916a6eb2441a55837867ce717385d4388735fd83f2f6555931077c0ebda011a1ee9a37ac38c8c0c43a65"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar",
+      "modified" : false
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.retrofit2/retrofit@2.9.0?type=jar",
+      "group" : "com.squareup.retrofit2",
+      "name" : "retrofit",
+      "version" : "2.9.0",
+      "description" : "A type-safe HTTP client for Android and Java.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "890d951895e6d080185377c741526002"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d8fdfbd5da952141a665a403348b74538efc05ff"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e6ea1929c46852f5bec66ab3357da383476cef4e8d1deefdbf195b79cc4d6581"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8abaaf318db60f5c85f7b6c0d0c6514cf3872f07961e731b6011dea99b1f6c75fdb9a54a841df6073f0dd81d433047dbb4ebba8551c98aecc8b63a38f2b01168"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "985cf8250284e75c9fe22210b9036924345bcfc7479b02082d029cb5a9f40a627a9ffbdacc8f38fbd6a7feaf4d5658f9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6a7afc288bdca8093bba3776beac98b00b268c5a67e83e58571c37011d4c5d2fc42df1334688c7b3b065d32c236f9f18"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2cff60b8f48ea014c01ad14be40ed33bd76138c1589d928b48edee35fe367b6b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e6b395fda78a23ce0a9c6c74c9c36f634ae089e7ba4a116150774ab07ada78c52f1cfc4f5de1d3f10c5215a4e9e2333a1413303c9f4f5b2867d1d7cface37726"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.squareup.retrofit2/retrofit@2.9.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/square/retrofit/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-backend@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-backend",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib Backend Api Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ab8849476ec500a22a0317008c9ef972"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "24ffc42dc9dd41754fda9af883ec755f5b10257e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8f13b74a3096880b6445e7f2bfa38824457bfc7d5eab4b816b438d53b9564b30"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2d878aea93ab4f0049201c91850e27a4b16d1d04dae03b114707747d80180a535ee76e2f250ee7c082f5c341e3447b213e4423b2c2ae2b832335e011966d55b6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d867eccbb49c0180fd280ee170f14a0619148feb82ded83fe24ea7963d8af3cb702b54a71126fbb913566047e409afb1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "508d0788cee317a202f0fa581c5aee915b54081267b6802205eaed6f96c3cb4a68dc40cda44cf87680736d553f972a75"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0e0c80f87fc9e8eb7d2d76eb87c2647917f71cc3f31d611d73c93c490868b3f2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6f49c007dcdf81c961fa2d9210d174775edacb16a3fde707ba06070118aba157ec0d3b4cd112ac0b9df844162a1eee9a0875ff1249a8381522f4477130077952"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-backend@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip25@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-cip25",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - CIP25 Implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d73c7788cd54d05da8813298b9dba82d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ca7abb03a52e28cf24aaa7a6edde7492848eb1e4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "976f88070e5e3096866c1cc817d78315205e36b4f1c801e90cdbbc94f7693400"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a703eb79b1ac8f992daf12cdf689b16994b15258abc432f0888137b378f7bbac41773969885df00cf1157cb6358e8dbb9e2073ca5185c27e31037b37f4866fe2"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4f0cc13a6f0351a4b3c2f88d6da12b1594ae4a17cc960329366e64a09f38a900a640f2608b076111f3904499a3b40732"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "51a4abcb0380f497a090760263095778f4e67f1384abb8a3928e44e717b42180a1a49566abe66f39b5b909dd6185b32b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b1a060aef26b5514bb728ab46e9232dc11116d814beeea1d2a5d3ab2b68c61da"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "88a20eff755f1bde221c0a5bfe043bf81860f4256a6de34d8619881f841b76b288adb0e1bb8295e6d6faa06365658cebcddd02e634d13d6d3ff17a8d6515ee1a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip25@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-backend-blockfrost@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-backend-blockfrost",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Blockfrost Backend",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "710911107bddb2388e78d10cfb17a297"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "eab66391dcf992241e377633e6b46024232bfd64"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c098a22a924969c067c6249196d7390c1970cc3b2acab93f4fbdf20e63f5d98f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3f0e5f160e35644b3c9ac122d1eab56ca892e4588b5b267719284b3f26a9ac824c35b66efeb36c36ebc28ccb1a71926412d30a8be1e75082dd8bd9d8c068c9fa"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a1d73884ef0d5e7cdd5219d4883b088cc4d5a3d85b463321791cbd1c63edc3044dae609595cf401707d9510a8d12dbc9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c2391a297022c3bda7575b58b84de663e76d6eee1d4f597ab10ef34747cad695adc616beca66eebd7ef71a0d837bd32d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8f0cd93292252618a36f03f9dc296df6e136e9a14251c2b7133032f304a835e1"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "21630e7f83b8b1712facfc3961e9798911f47a240ac98c0a94c9aa8761ad351b63604b7906d0f7f1a98513535800232552ba1ebe139e037d2aaf1113c7b08346"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-backend-blockfrost@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.81.1?type=jar",
+      "group" : "org.bouncycastle",
+      "name" : "bcprov-jdk18on",
+      "version" : "1.81.1",
+      "description" : "The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains the JCA/JCE provider and low-level API for the BC Java version 1.81.1 for Java 1.8 and later.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3a2d42d577336ad5f3a9dc2cb762b96d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "07bcb4c4664600c51190ab3774710a51bfdeb2eb"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e1cd291bf385a7c791a6f93192bed56d012a6bf6bdb972c2dfedaa95de2ed298"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0f9fd9602d0efba5ef8f67146554266eee4b7252da267d745abd57fb50d3b9b6e9b07b51d470be1b682d423392a35c570ae6c5fc6875d1d977516fa9235f8c71"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8d433f328bcdbc21cd36f1ee6874b1cf6013c7ba378f80ec351432255d1e164f9230cfeab1cda7ca32ab0a3cc532eb07"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4ee39695d2d5ac681c97eafa26a02f1a0d319c74dbe1deafc42538b1df90e113067464e18415a066c65d62ece3a979e2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2819eaeb127245e45cc39197c9950a483e1fb90d0d0e5834f04ed2af6b1e698f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "64ac2c4d2667c934e2ced9be3e0e80a71992d7a17253c2859ddb9eefa3052ab8c82d8948cbc74cce594c19e1456f4bc9227301a4e9015f7cc8fea2013f498f40"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Bouncy Castle Licence",
+            "url" : "https://www.bouncycastle.org/licence.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.81.1?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/bcgit/bc-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bcgit/bc-java"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-plutus@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-plutus",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Plutus Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "08c7bc8943c888c74610df532e719034"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "eeabff74552863c064711a7a63fd8c023e264b1b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ed70bcfaf1df336244a257ac70bbbe73fe1f7ec8f37a97fdeca9f0ce0c1be51d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3f2c6fb0e2155038274d3cfabe4ae2568ee39f04cc4f98dcdfcce98ee6a0b6945340319a5a687c0a855ec744b6337aa15ced813141b0eb898fef31b6c30e522b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "02cb1895030030db003b2948f2f0dc93225b489b07e0ef37fb1308edb14c45e122b70efc9461b35d73fd1417ccfe5666"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6fddc4ae3eaeea020630509d8ffeb0de8926e95a8adefd06536c4f88e6754fca9bb56d2c47e6a8ad6ccb86feb85ab2d6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "eaf205fef922bc1d7df467b8252d7b9f3ff2f321dfc78f9dc2f0f9b5bffc4ad1"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "cf4996cc6b907a626a5397cdfd3b35dc41bf3f6c9ba20c68850f2f8eeebea1147b0c0d0341e5650271b046b94cbece2af5a971f46d06326fa7cf467d808c8f00"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-plutus@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-metadata@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-metadata",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Metadata Core Apis",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "37f6ed6ceeb0b37546834a3e77977870"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "61d8ce621a31124af505389674765b8134b9858e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8adb58e208f83c9aa26414426e011c663edeb6ec31a35450830db8ec494fdd84"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "eb0efa919f5fea579a6ce4115274589f4d639f5e90157e18c84583c0c72544d481deb5d3d7ab17c50c3ae6c99868ceb5ffc1e1c02e82d226fcb305c9ed85fc40"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "996183c70a35b49102eb814e452d4b7c883559366731f0d5c493b15ba3f9e4830096ac0ddbb672aff7eef2ab31d66f68"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "096883a290e90c16322552b8eda0bba66f40b3d0eb238d715f2085ae1fdc85a161f57561e57d8927a01ee2763de0996a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "11f6047af990b87ec5a08774943158059a1b745179bbacf1ede49e86b8485ad4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "dc7c99d1a37f60fcde67cb4cdaf9829fc1e170eda232d84f6b6d95679a06357f01cde00266b3196d6bade5803fe5daa5fb868015d2cf329b146f1e9f15b7e25c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-metadata@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip8@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-cip8",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - CIP8 Implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5c4082f924d9a0e705d1fabbabb38913"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cc90d01db723efb78d08e7150ad87b083a27263f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "19f1cac9dd841116d4fd68bb2d6e140bbc5b2951d1de3fd6b267076a586d191f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6b823881a9570de5b7117fc8f66d2528c32b039dda6077c854e8ea73ac770f1632f60242fb5edb8e26b6f50f7753d430ced0cea5eec118a14f4ce21904eabf94"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e74a60377438561671e3dbd66933996eafef4ccbc541948077a79897bcad0df08fd16006326d011a7b7abacf3b68db87"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ec128ce89f8011c3b5f5ac1dcd75b4f87ace9711f5a426bc715da5a00992494bdb21cf724137a95f0c4654d0890de94a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a1ef6327be0a0fa77ebc72522a659efaaffbdf39178a6025fff2ee4efd6f4338"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a7adfc939f9e42767cf54f76a6cb5c5b61c3f87c92323f7cd3bfe71a1bf7ea833b2418ef2eae9952f015cf6e14230477ef3766b5ab2bbfd5a64ffb69d96cfab6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip8@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.81?type=jar",
+      "group" : "org.bouncycastle",
+      "name" : "bcpkix-jdk18on",
+      "version" : "1.81",
+      "description" : "The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation. This jar contains APIs for JDK 1.8 and up. The APIs are designed primarily to be used in conjunction with the BC Java provider but may also be used with other providers providing cryptographic services.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a66bdc5d32d086737b86803cd87cd187"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "819fd6f5d170c8b8bf8c5acc73816e9c36574042"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b38c604871f3690109a3c00982d9145634125de3365a817ba16eb90d88e242c9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "830aa649f0e40c4a1e3ac808857af2465ebaf3284fd821819962bf44233f67d3b2ddb01f937be522332b63be1dc0a8735afc5ebbcc85e448a684bacdf6083432"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c58a0e8d20f3c874dbbc0b2680409c1e9802a166c676443c14e5c3734111363050d8397bcf43b30ee1cee87c1bd14fcb"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b625876c0da1f9f5b975e5df13c0f30d2e8faeb86a271930059fd5f5d84b0507f5e9c26c0e7fdfd23b7bfda2e34f7513"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ee5788e24c7ea3446d938a45c320a69d526183c9250ba9b0090de875d3e69c7b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d33c509714a0b0eb5cac46c58582e8990160a3fb6079fefd64370fcffa7a91cf3d7b984f6aa623dabf8aee029a43a95d4fba19a9496e5745a3943158570b5ff8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Bouncy Castle Licence",
+            "url" : "https://www.bouncycastle.org/licence.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.81?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/bcgit/bc-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bcgit/bc-java"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip27@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-cip27",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - CIP27 Implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "448019b1d2597a3320e1118a4ef5d168"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5d2a1ca3201d07c2cd67370b52d46cb9e83be028"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f289dd4a0f17271aabbaa25e2517edd0675d986091565fbce3b1437fefa44178"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "573729d8450f06296e26074b843fae6609d6bf1fced084e4ddb652670975de72fffc32ff3412f493e5f175e688cfee5e4dae3ab4baeec157d7b68c5dd8ac23e5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a26d99581294558affe49d3da48da93a78d71c3be1c15b87f740ad9de0b38b016734fe491f47e6b7a854409c68dab9a5"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c4799b6b27f2f0d44feb8c9bbc8ea59793eb86e8119f3ee1e27953bffb6be0e1e0e78218b19dfc09540247c0a28ea49a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "645751580b2e0ed28eb8ba28e72066f55e53d70af30fe85f40487bce6efaae9f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d4291709191e985a85408f3cd2fac0a84b3f46fcc94d9db99f89915c4f1bf6811cb94fb970b79b3988f4214223b35b87279f2e2fd9a10bf1acdce5a3066014f4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip27@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-io/commons-io@2.17.0?type=jar",
+      "group" : "commons-io",
+      "name" : "commons-io",
+      "version" : "2.17.0",
+      "description" : "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f6232d0e290d58bb93f74f67165bf91f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ddcc8433eb019fb48fe25207c0278143f3e1d7e2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4aa4ca48f3dfd30b78220b7881d8cb93eac4093ec94361b6befa9487998a550b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "98bc665c16268ff1074f415f493ba66d214ac23665b6e964086b60d523b35b1b03fd2e79211e84aa8ebf0921ea028f992827e4642fd086d7104a408b454d38ce"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4dabc3cd47eec79ae537e48739f9abbc64e9b75f63809f35f062d54b8d737de0ba282d7d35a236940b9152e1c54f5918"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fb7a6dec31b6170f729143103c47fead49d50b0d9f58c42ec55a593b23d30c4c43114579790f1e43adfc598f684d4493"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "bafc20a1433479b07bd526655f244eee5fe1c99cbf75a0ac27e82237f9c6589b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "47d71f864268c8ced739b8a78a906fdc9777ed0eae3b56218a8d4e19d1787564ab39edf6034b08700c12cfca47edf505551e6352163a9bb50a93279890e241e1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-io/commons-io@2.17.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/IO"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.okio/okio-jvm@3.6.0?type=jar",
+      "group" : "com.squareup.okio",
+      "name" : "okio-jvm",
+      "version" : "3.6.0",
+      "description" : "A modern I/O library for Android, Java, and Kotlin Multiplatform.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "26370180ff99a7e8a12dcaac2a70cc6e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5600569133b7bdefe1daf9ec7f4abeb6d13e1786"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "67543f0736fc422ae927ed0e504b98bc5e269fda0d3500579337cb713da28412"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a592e93651fb5e335212bb25c1cf474c1b1076eda68d53cbdc82c383cbdd60114a62b698ca92a3b4b5e416d637a70f2ddabbf8a05551c62d59a240c3e3c3d2c6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "825856eb690645dbaaa02a6047ebbfe2b2c0a9191d37c177b216160bd89286e98695fc91cd75a9b6ac7e8d1f3a106ff6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "07c656a88258ed39d50941355e955dfaa74dad3f128ff48e8c2654a53607e940ca3f3383f4f97f1b9e91670734ff1424"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "95baa62978b92951e1921749529688efa24d0a329843427fe822cc4e90399483"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f2fca794345a93448b2c770c2525586b661447acbac32142fba0152320c164b5cd27d2d6a478e72e72c54ff4e0e93eaa729529b6f5aefa7e6d7b732d0d9532b7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.squareup.okio/okio-jvm@3.6.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/square/okio/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip20@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-cip20",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - CIP20 Implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e4ae5415d695254f53b0c54032876839"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9fc1278aa60df0005b3eaf8b81d11f55595909d6"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fa7b29f43ef9b820a67ac3450a7a2ffc73eb30684689c343dd22e3a219f6356a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0299f5f9e33a1ace2f1532732569cc3319a38d28e3bc699e1b2768c5243623613c3a253c7d4a6086c1dd258eef13ec4921459e88cad2f75bbb4bff505e9eebc8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b664cbba64523b588aeeca2879142ee0eee3cf8cb4f51a968b60df6ee35cc83647a10d0a6ebe6a083e81a0680df8dc92"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fa82bab4ef5a72519385aee18fd8d6d7d1efe792b6cfc530f9fce1c5105df335a8ff14108e3615898f88dd5799cc5dfc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "69bc3999947bab9f959faa713388778f738ebdfb80b4486a8a83074a9f0fe305"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c986474edca4a9f209f43a4bdb9c6a11a58ec4f8509a7998ea8b427cb368152d1d5c7df5856b1cc11005fd95c896c29a82eb2e4d81fc9f396697292a800e96b1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip20@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip68@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-cip68",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - CIP68 Implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c870fe823dce26da5fbdb819f52a5ec4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5e4c04c12436d53a5153edd1467706c75a613432"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "520c1e9eabc8d70dd9f5a9c0aa4071e56ffae71d181dd32e0b7e5db3dba662ed"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f9459decf925643599bfec135edd09168f1203f181223b093168510a518024c5d1ffdda4a6ceb8d4b3cb8e4654edf3d5154b60efcd5a19ec4e25a15fe92e7761"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "77500110edda10dd1c788e33a4526a70de50e2bc10eb96be3e2432123f8ab4cc9dcb20294aa761e30754052c2b55d4c1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d28a4584a9f3c5a522d0679be19791cb141830df9cb1c8f9c03f56f85d7313d641cad0076904f21d3d326a162db0cecc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f3dae1c2e892a4f8dbc2d472734d1370a210857f06a2ab2753f3c7d84bb2bae5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9d5f774e0f4a9f39ab911492074ee26457b5391bd98644b9e6645cae099110ae09bfcfb0623d6a94163d6495f6d29214abba729682f98ba5d51f33e2665ca4dc"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip68@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.10?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib-jdk8",
+      "version" : "1.9.10",
+      "description" : "Kotlin Standard Library JDK 8 extension",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d223cbd9e57f02cf4e9f3d9ed01edcee"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c7510d64a83411a649c76f2778304ddf71d7437b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a4c74d94d64ce1abe53760fe0389dd941f6fc558d0dab35e47c085a11ec80f28"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b027fc4a0be8e69f41a86ae775ce350ef0084eb4652e50a0640dbcc600db76c3fc2983e17c96b6071b5698cea636e1b2cb015e84a6c0efe95e6db668036ba3cc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3889a432424a69fa2fea634bb540a1a78c12c2ed42d02efe74ffbe90d980497975f4d43d9b994bd520953d0761cdfaa3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "836acd6918290fa1b6a5ffa223597233e34b6c685dfe76568b5895fcd9e75294a7f065c35bb652e653014879f25aa8ee"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4125ea0839e84336806248e9a8c46053f9e5fe065797c11353e5475ac096f7e8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "40742cd9e9370be96fd9a8e1b15ae419381a7eafdc1fd8a9954bc20193ea2dfc4b0b29ec154966d4e385c2384e13c84dcf10a503a54c9006894b5f4b2f93d89d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.10?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "group" : "com.google.guava",
+      "name" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava",
+      "description" : "An empty artifact that Guava depends on to signal that it is providing ListenableFuture -- but is also available in a second \"version\" that contains com.google.common.util.concurrent.ListenableFuture class, without any other Guava classes. The idea is: - If users want only ListenableFuture, they depend on listenablefuture-1.0. - If users want all of Guava, they depend on guava, which, as of Guava 27.0, depends on listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-... version number is enough for some build systems (notably, Gradle) to select that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a conflict with the copy of ListenableFuture in guava itself. If users are using an older version of Guava or a build system other than Gradle, they may see class conflicts. If so, they can solve them by manually excluding the listenablefuture artifact or manually forcing their build systems to use 9999.0-....",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d094c22570d65e132c19cea5d352e381"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c5987a979174cbacae2e78b319f080420cc71bcdbcf7893745731eeb93c23ed13bff8d4599441f373f3a246023d33df03e882de3015ee932a74a774afdd0782f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "caff9b74079f95832ca7f6029346b34b606051cc8c5a4389fac263511d277ada0c55f28b0d43011055b268c6eb7184d5"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e939f08df0545847ea0d3e4b04a114b08499ad069ba8ec9461d1779f87a56e0c37273630a0f4c14e78c348d3ac7eb97f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1f0a8b1177773b3a8ace839df5eed63cbf56b24a38714898a6e4ed065c42559f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6b495ecc2a18b17365cb08d124a0da47f04bcdde81927b5245edf3edd8e498c3c3fb92ce6a4127f660bac851bb1d3e4510e5c20d03be47ce99dc296d360db285"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "modified" : false
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0?type=jar",
+      "group" : "com.squareup.okhttp3",
+      "name" : "okhttp",
+      "version" : "4.12.0",
+      "description" : "Square’s meticulous HTTP client for Java and Kotlin.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6acba053af88fed87e710c6c29911d7c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2f4525d4a200e97e1b87449c2cd9bd2e25b7e8cd"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b1050081b14bb7a3a7e55a4d3ef01b5dcfabc453b4573a4fc019767191d5f4e0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "da63f77c1cae377b40f6fd00cfbbe8177e760e4e622ae2c66860fffd3bbbdf605c8e8e415762e9263445b2289ee834100237c63949f2e01c30b6704315dd8f7b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0a8fbe4104c511169232caa90bc52b8a842b6b4cfba525b1c749ca25ede252992c1a3b6c0b6b43143949bc1f1eea742e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f41dde0de63dba9c941083a9e9f9681e5e497149cae49988b1a5b36fe2263d351035ee378e06975b5f3145b91393cd75"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "736a6abc2a2128ddcabcf46c9ba70e4656c2bedaeadbe8f9f76bb807db657b05"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b2a39d9dff52994e78774d628228f7b3959d6070db2b535c70a90de70a7a716ed011d4dc210886314c1ebad8478b2460c652a2bf68094dba30d3593a1a750c75"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/square/okhttp"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-governance@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-governance",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Governance Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "653096090874aa9245e7985e8d02f714"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c5730ccfbd4a4adea9a52c053d0cf0ea1cbc7aa1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "85e9010217ab25a0b4e1a2f66f34570240618ecdc49a17f98e71e880cc9e15c1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a675b5e47cb7370b3fbb5b1a4d147c2e9f90e72aa36a89181c63161f68b438f43029dc0a402568232c4e8b8700713a8e275193e520ea60ffb092c42372a79ac9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "330f459482af438cd09da2d71071427975acfadc48933c20e457e9a874e4de28fee94bc8490ba4616bf863c538998d78"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6d989225386fb6d8915638e5bdebdd3aef018d5d25ef745cc30195260c19193585884fedbc96f88b95a1c8b6d61b37d4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "caf2d46a96d7e07121523eda950788de474b7804356201b82282836c7eb1745e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e3eae973fcd75e2c5ec6b0ddaac5952b343d81e9aed42e1aae7113580fec981f71be364e83fc991270f426f1bf87407c2671cabb643035fa6e561a9dbf850eca"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-governance@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-address@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-address",
+      "version" : "0.6.2",
+      "description" : "Address generation for Cardano blockchain",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d1c4fbcf2be23d9d6dc11771aa913b69"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "85bbb6951e9d71a6b8dd6ef2fef654aab8227195"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c67c5c0b19c218678f36f403c26d3496642b6a8c275a3a30feb4f73307921c31"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "873b0a2da969d3a461a2bf3905e1822d872a04aff42d8a77069113d0ad20dea2e82be928187bb88e37589886a7a9a949eaf96e7398181405e27248e6a313a307"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6cf50505b04fb136314f655ea977cafa3fdf46790c0fa40c4950e8a64efbca7050729b030a117691a6d04d14daa74d4a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0786c327eaf51cd1d466f4db1ec01eb449bb459f1ffa2850aa5bad8fc4b17094cf460df7594b5f54d7fed17d16b52838"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6a95e257f61034b99ecfd92cce905dfb4f69b51d280e1ba48cf1da2659710ba0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "24032746c2e20ce3b1470ed5328deae858fcd1bf4517ed2eb52f983f735d14a1ad016d2fb1377df9510805837161e538bffef4d3178e50fae7dac6226d761d4f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-address@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-common-spec@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-common-spec",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Common Spec classes used in other spec modules",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "94b3b642cf92d68a25e0cf6df2cd5e02"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "40cfc25af9c5c504afcb15aa4cb12bfa27da7d76"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "97cf87dc844d2040377ee24992c6abd89d5da076e05547d80e70d23406246063"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c8c6c1ed69509224aa630ce1699e9f8925936c827a25a600736c690a7cb0ddad83b20c9e47cbe6b6e5575a7bac8f66a3350062111c7f9aebc861e873609dce91"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "de9315e3bacafd78db9be80a58059e833f326be4e661945e80c0317f894aebaac06e457973b73113d9751bc2872ba4af"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "db2588fa45fd6df74a8bb2601ff91f88dbb2b67677dbab473b69cef3616f430583b1d05c629761a0a5c86fcd9caed98e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f055d4a8784cfa27efdfca2756c21b9ccf958ddfd4a9b75f5588f176877e1050"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "866ff11df824d3000660b6814d250a7dd7d8015a803abc316cf8192deb5ef7fcb469d5282cdc7356f4792de13192c0465baa4fbc9ee1cf71ab040f5aa96a9390"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-common-spec@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-lib@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-lib",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Library for Java",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ec90796cbbaf8c854ed36af618b8478a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f9ef8ee42d0fa8a1ffd54984799ed5674c89dc83"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "765681a86e3ff830fb3c269ca5daa8902f59533fe367b1fc66758e419cf2f04d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "33768df59fb4c44ff8bd4f242aca2454eb6d0253915dcc36575b68ab1210d5a7c824436ad18f3bc20647f1eab5f5c812c4a4d5c838565e285dad1f97d44b1f7b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "725a5b391120fe587a8cdffc8b6ca666ed049c6068cb636de6339c7e3ec27de8e112e51ba626111c457c3428f36467b0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "01e40ed4edb4598a3b3da4318b443d4f7e9d532938ccf5cf0ecfd7d7281e4f694628aff9b802aebf6c621443a2b4ef40"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4d1b3f4dd987a421669d142dff7a732843e6d1cf206606c8e0a488e5ab6d965c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8351c5e558d2f1084e460f2ac6b9fc23e3e0b48d528756f77b76153bcaed49fb19f77843bf5a5a8ac3f5b7efe7503526bca831e05036dbed1e7503abe034a85d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-lib@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "group" : "commons-logging",
+      "name" : "commons-logging",
+      "version" : "1.2",
+      "description" : "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "040b4b4d8eac886f6b4a2a3bd2f31b00"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "628eb4407e95dca84da1a06b08a6d9b832a49de8472b1b217e8607f08efeeed18b996232d64dd07f03e78e0e3bb4b078"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9aab62deccf156ee6e324c925dfc30ecb53e8465802863a551901a461424e807"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3fd76857f6d20c03799537cc961c1c4ddf1c375c6c192fb982363e3b9397ba138b77f24ef38b4202f44e37586789c0320e4de18fdadd2772304fd14a9b26d552"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-transaction-spec@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-transaction-spec",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Transaction Spec Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2618ac931de2c9cc089a7e41b9a5304f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fa3c95c920b29dc46fc200290337ac38044bf217"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1b5f54191d975f0a13d73dc00a62e05e1b63a232eaef99a7982cd4e59f1e8fea"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "53afa3c2b67c0f0ecee848210dd4dfe47109463b71d5caf9a6569ac75c597064e1ffa0e35fed8030c0ff1ab98af610439bda13668a8b16c2f1bc4bade02ac87f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "57aae753e35c8556e61cf91d81775f4dfa23a0413439e51b99e4880c847daf07d3b21020ec6e9fe03222d0e6cc5a9c2c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "00abbeea6744356f41ad1909aed036bd0c7db82eb60c3153ea688c845ad2839efb67fba817f1ecd5a9eb194713039be5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f1e7eaa46495f51782d9ba22b2661ceee39607e0c49eb9651c0f9f17abb00709"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d72ee57977af4b4d9d0b78d0845afc064c9e9c6de2510a6c17bd8e1c3dfbbeb66cb0d94dad1840b30bd094e399299d9c69992b11ba806e439714223a8a7c8c60"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-transaction-spec@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.10?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib-jdk7",
+      "version" : "1.9.10",
+      "description" : "Kotlin Standard Library JDK 7 extension",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "14f35bcc452b095f3034a1471960cccc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bc5bfc2690338defd5195b05c57562f2194eeb10"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ac6361bf9ad1ed382c2103d9712c47cdec166232b4903ed596e8876b0681c9b7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f839178f07b9d6bd9a3910d13b181399e975211fa556c3a9ead08eca30ababa74f75c79aee95224ffb7b610b9e56768eeeba18e8fae84826903adb12e122bb67"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b93606f0e2888e6c48665d1003ee4766dde5b58be284afa604010f592c8f9390904e430f8704cc0a7d57d00788b858d7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8f9bfcdea034e6f73deef804e00ed2535631b0b7cf433515a60ce7c38479e0f7a2d7459bbc2bbf87163ef63156384451"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a8a6eb1d7d305c85ac73cba3d9b0bbf0c17dbcdfe58b4864b9e15124c9c097f0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b34b365d5e32f0372426ff076ba0bbc8568891687fd8b2ae67a88576bb32e2f54844b7f41200ea20f333eb27bb5bc617e55a6a99ec6b2f23c5091dfe5a00a706"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.10?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-cip",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - CIP Module (CIP Implementations)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ec90796cbbaf8c854ed36af618b8478a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f9ef8ee42d0fa8a1ffd54984799ed5674c89dc83"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "765681a86e3ff830fb3c269ca5daa8902f59533fe367b1fc66758e419cf2f04d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "33768df59fb4c44ff8bd4f242aca2454eb6d0253915dcc36575b68ab1210d5a7c824436ad18f3bc20647f1eab5f5c812c4a4d5c838565e285dad1f97d44b1f7b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "725a5b391120fe587a8cdffc8b6ca666ed049c6068cb636de6339c7e3ec27de8e112e51ba626111c457c3428f36467b0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "01e40ed4edb4598a3b3da4318b443d4f7e9d532938ccf5cf0ecfd7d7281e4f694628aff9b802aebf6c621443a2b4ef40"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4d1b3f4dd987a421669d142dff7a732843e6d1cf206606c8e0a488e5ab6d965c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8351c5e558d2f1084e460f2ac6b9fc23e3e0b48d528756f77b76153bcaed49fb19f77843bf5a5a8ac3f5b7efe7503526bca831e05036dbed1e7503abe034a85d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar",
+      "group" : "com.google.guava",
+      "name" : "guava",
+      "version" : "33.4.7-jre",
+      "description" : "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "50663c565bbad86da69893e710a7cd4d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c1f6ad95476208ef852f92919e7a9e22abd83a98"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e3a0c740b72ee0ee79a1d86fbb8129d11776822fc17c624514ff1ddc018642b2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b6661da9d10b78f2bdd04e6bb67d5a07309080f9ecc747b15a8312155a5d29abcb475ab3a46c7ee58a72f84073eef82dc563913da62afb896faec55234d229cb"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2ee21749af7b777d256b59a4e7b82e13782a5ba271073b812860acccc007e40177cdf7691f6d5e1a0c8ee320131cd821"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f7b93a45dff4a3ffeb6872f7c4ece4401c821e2e0908edf4d0216cf0a2ef679421ff5aeb4ae914a25aeb77a0bbd08b46"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6f64f074f430de3cad4a14ab3feff2b60e99d0ad844ad9f2028db1509ac9438e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9f042939fb2c433bb26079934dab3d8cc52a541a4e857593b3e3935931a39c0de5a48b396f80bb8ebf5a9f11c63aed3aa58d93ab6e319ff9b09e04970e030b90"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar",
+      "modified" : false
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.16.0?type=jar",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.16.0",
+      "description" : "Core annotations used for value types, used by Jackson data binding package.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9caec6e7cdd5cc18e18f99359b9e8d95"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "dc30995f7428c0a405eba9b8c619b20d2b3b9905"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c4b90ea0c0074da17efdc3aa23973525f25d6f34725692169748f529547334a6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2c7d70c88b7e8dd710863f8c920d3e2fe56f8ecc01c757011bd9bbd195228028402566fbf4feaa083192453348a86a70732bf5d3f6eebb75ab4e5b3a525f6148"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "99413ce47a9980b0954051f651068565e75b6300c0b801179c87f347053e9c9f31c60c698a7e1ee9d1ff664facbb6c8e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "074ae852029679152418a8038e4743f0a08ac8629c829655528e55df9a9b485ab156760beb3d56e312e49dc9935979a2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b06c76f9180c0c520d1a1f207f8dda1a5428282c2c8aa6483d762473aa09e8d4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d3501082dc25d1fe1b044ca8361d74945f5a7a6dffc54261c0465b858efccc510e364d7a23dc32335648196cd4aa8d512f7dc9a79142cd19aa477270ed4daf5a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.16.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-annotations"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-function@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-function",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Composable Functions",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "697694bcac70fdf220cdcfb8647726ba"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3b0cf42414dca301e22c22396cac1dd2be2263f0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d3a1f5cf1ed7ce21aee57ffa2c1f98b1f40dc521ee02fd9cfe5b6450991850bd"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3d6fb42e57c97bbb6529f73a23893341604d9bc7df16970a7f399c0a3431209c3313d21d9238afdde8a515227a60dd7a07b8af8f52cc84a31e1aaa4b103adba4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2f839aa0bc83af37290a698f0e4c295ab0fd6f7944226bfb58d0371b976af7685678671411da590d6b55fa8c801f9c18"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "701e56e7212e797dfc832d64605479d13873b4b0b81fd0dbab04577664e8804b4e9519fd5ccaa2aba7e7279518d1b953"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d2dfc6fcc20c763c817484a4c95a90a64e57e81c59a1bd2c75bc18162b61b693"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5b13e4b4b11216d49b6bced2b0cac0d5bec78cf8ad8c407a15a5eb978d74794014b2c916e914ca354e9b3c9dd4e6e2086c9cc4a6c7338279cde5a651488376a4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-function@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.googlecode.owasp-java-html-sanitizer/owasp-java-html-sanitizer@20211018.2?type=jar",
+      "group" : "com.googlecode.owasp-java-html-sanitizer",
+      "name" : "owasp-java-html-sanitizer",
+      "version" : "20211018.2",
+      "description" : "Takes third-party HTML and produces HTML that is safe to embed in your web application. Fast and easy to configure.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5b0008f2b94e1d3100de8d3cdcb670cb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a3226c13cf72633122e94810a53e60529dae2b80"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "48234cd74e35d91a31a683820a35b5b6d11b55527f32a5b162c6757408b95d7a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2aa772e369e93ae10fff441e063f0439ab36d87803dfcd76b492dbe61848c2b976649a921b9518c6dff9e8751dc9bff0802e1ef793d8cdb232f8e0da77e34732"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0caedafcf42e8a2e6a7a10665f48c9ae5cdbb586bbd5337bd63600a91362ec329c12558ce4d967f42ea7d7c83769e69f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "aae645eb112a6d5bce213a766a6cf76df828545df07438340b007e9eb8db546e62b2a01d94385daea86bfb7b1952c34a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c805dca696ff5b10f8c21fca1e99c0771d3778507888ab7da4aa939a6c770e61"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "851caf550ca3f5cf9ff38c0961d18c60e752df41b6a8a28a8c856ea8e421cc9de7090155f688cffc889b576aa4ff0558b1138b1810ed25b135c1f68509c8be7f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.googlecode.owasp-java-html-sanitizer/owasp-java-html-sanitizer@20211018.2?type=jar",
+      "modified" : false
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.pdfbox/fontbox@2.0.30?type=jar",
+      "group" : "org.apache.pdfbox",
+      "name" : "fontbox",
+      "version" : "2.0.30",
+      "description" : "The Apache FontBox library is an open source Java tool to obtain low level information from font files. FontBox is a subproject of Apache PDFBox.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3a7b597c9dbd56e18455e6efca52cbb3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "555e5d59a4d83c95c4330f018a6c32861880b6df"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "aae7518f9c17d347531e63b22a46de582cb78f7e45d079a78a79dc9bdb23f8ba"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "61eb46fee25826a8b0750fbe3823504e043f7e809f6ac3d144a1ba773195de29ebcffe30faee1bc9d2db50c94c45ebf65b67eb19e3358dbabf7878d36f133396"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ca4ccf8281e1b481f83b8e156a3c2cfab0590f3d0a0a19f9cf80997966170affb01da293bacb880ae70ff8e6f54deb0e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "184a9a72f221f34fb98b9d5e132b74b18bab569b8f6e86a5e1e7b88e5d6f82095607809e2cd98620f43cdbd3efd0b277"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1c1333b59673e8caf3db1fc6453ce9c799b133faaee9017c2860a03257107325"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4b018c517e51185debe39adc9237728b6a189cbfc8053bc8401fa2c115f2a40c1e242b5ce1ebf0339480bc332bd4681e9a3dcbb1c4c5bc8d7fca16f202e3ef5b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.pdfbox/fontbox@2.0.30?type=jar",
+      "modified" : false
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-core-api@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-core-api",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Core Api Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "45c90ce9743feda156186a54dec37e0c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "160d1f57b278bbd642e0c15fde33be838eb9fbf5"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d9566584fbfe18ec958efa060197f75f798b9a207ad0ec7f57edccf87bad0b23"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2ff49e6988e126e283d9b93296ec2aa219dcd6cfd2476557bb9e947daf34681e27e21d09a79c281322baf32e5e62f81536b561ac9087f0b9945f73465bef4052"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "59beca955c4a425c09a543cc88ae82e86d930dfcb7179f4352b25613fe823d5543e43ab253cc37e1ab19c502bb9a815a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2585623d620f382c910c0851984cb1926adf84a494a2e74250e0d29eaa145b3b84c6d3fb90bae9d1f3d17855619b299b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "810d867d846f3e212d57ca7f2541ede371b0d5894313d42d04c587ef4c1b3328"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6225fa45235e0e3c923434e0494add45584fa857d2d89987d4aa92fe19413051396da758aa662eacf12cc6cba0581dc6751213bd2a16cc88c71c1672c55910d6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-core-api@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.16.0?type=jar",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.16.0",
+      "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e2510fa60b7d363566a9016a8c40710f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "899e5cf01be55fbf094ad72b2edb0c5df99111ee"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "66e2cde4cc7e565d5fce2a2998b64e991777bf9fad4d220735c525fd8d01c31a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "89b134b2808c34562f751ff39b938e8c1b67030c4cfb8fd0418d76aed1d6b8f256915a5e88d9935f472322b414a7002e59d92160854cbd01774b28eed61c5315"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fae7b757f776419e32e2f598f12c92c576c37e0ca489250a4aabf2db118913163aba958a9d5414da47d770810b20594a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c51d4ed62c446f42bb3dbdfaa76fbb26beb1386aff50533049addc6bfc23476195060e80f06cc14e35540d7181f1b314"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d1ef5cdf29d629c6291b3d39f7ce9c0f3538d3713c6840430f36e32b333c85a4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6af6b9310b50644e3fa8b3f6b9f8f97151c6745d68440736543fb0d2e2a913f4fa0a189c876ae9899941db980e4ece0e34996ff79a39a10fff71e97144cc1504"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.16.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.j2objc/j2objc-annotations@3.0.0?type=jar",
+      "group" : "com.google.j2objc",
+      "name" : "j2objc-annotations",
+      "version" : "3.0.0",
+      "description" : "A set of annotations that provide additional information to the J2ObjC translator to modify the result of translation.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f59529b29202a5baf37f491ea5ec8627"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7399e65dd7e9ff3404f4535b2f017093bdb134c7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "88241573467ddca44ffd4d74aa04c2bbfd11bf7c17e0c342c94c9de7a70a7c64"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1406b1aa53b19f8269129d96ce8b64bf36f215eacf7d8f1e0adadee31614e53bb3f7acf4ff97418c5bfc75677a6f3cd637c3d9889d1e85117b6fa12467c91e9f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "24373643a4e2f8e1cf919d495e1e79b24dd9dbbbeecb06477be8764313f0b3b465fde74ea2cf5542fc8cba090132052f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "afa264c8d8d946e43438ae728f0ae7a2c12797b56f9ad885d5b3e9a7396eb8481ca6840c2a990a7c5da45968794b36d8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4df89618b479d5fbede9363c6f914218a44007f48f29c6b6d58243558ced6152"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b25b2ad8dddeed8757ffe22a96cfa7511617d86baa0ed4a25b1850162b54e1132d40dbc2dfca0a6ff0a350b16628a0d2b523418eeb8f986e0f505833da4f7181"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@3.0.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/google/j2objc"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "group" : "org.jetbrains",
+      "name" : "annotations",
+      "version" : "13.0",
+      "description" : "A set of annotations used for code inspection support and code documentation.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f4fb462172517b46b6cd90003508515a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5622d0ffe410e7272e2bb9fae1006caedeb86d0c62d2d9f3929a3b3cdcdef1963218fcf0cede82e95ef9f4da3ed4a173fa055ee6e4038886376181e0423e02ff"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6bcde3a6e471d416522e6288474bc4f9115e2e8abf8ce5d300829bee4aa98dff73be7d8c6f0607f3d6d423c7f5abbf90"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f4d5a5d5a76b24c4751c8c52f2879b097d2430c3571c59b4630e8c871c9bdb08e24e803a14c24fc8d3378417f29b7244"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b4a80ea81c4bc7e364e07981465f547e8ed83031806eaf3b97dfb38f894f5b6f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "15b23bce818b4399b334dd632eb85de5a1b70c47fb9260561e70b1f726211c83bddbc957f3b4c32a1d8c687f9bc6c38d0a638c731cb5daf5b619aa725d6050c2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "http://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/intellij-community"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+      "group" : "org.jspecify",
+      "name" : "jspecify",
+      "version" : "1.0.0",
+      "description" : "An artifact of well-named and well-specified annotations to power static analysis checks",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9133aba420d0ca3b001dbb6ae9992cf6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7425a601c1c7ec76645a78d22b8c6a627edee507"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "efded31ef5b342f09422935076e599789076431e93a746685c0607e7de5592719ba6aacde0be670b3f064d1e85630d58d5bce6b34aed2a288fdb34f745efb7bc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "814f860e5a44ead6c457676841eef471a8b87be31b84c60a8a4477a18a9cbcb6e3c2ae700969d5c5e52309d961e0537a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c8844e5b71e5ecfbb7366097ce34af2f5863d86d5ccc3f9ec384d8ade4b60ccc8124c7fc88664f1afd2b0962fc8775bf"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4b4f08ad7606a3ac62997779484919a302267b26d26ee19125f8a7eea60e8a71"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "65c6845ebae981cb81b61107707ced39f5b377dae970b47606ef482aaf10e3729def0da40d9377c43abbfb483a5ceae039b0d51c129c50a6d36ad351a5d6b01e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jspecify/jspecify/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip67@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-cip67",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - CIP67 Implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "150aadeafcf343b2d68572ba8d81c2b1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bd30bba46e0e58ad237bf19261edcc0505f3bbf0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "99dbe408c4a84ab71f8f1366cc0d010e6ee6f9727f2d42bec280147875c97c70"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1967adf5ad209a4508d7163980804744db2c2abb3a15614c8d5039e54ca3f6d7414b3ce553507643198fee2772b4f984791128177da69000b2e5c42e8600d55b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "62a9bfc83e518cd779fccf2701f14b7dd2576a4b8ac97d1284d1cd22e2bd066dc7c2b04ac2b9d2913d19fedd5947660c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "21142241ecfee1998c286226ed6959e77a6031fb8022b7a0712d963a1f713987109c443248de1c7065681a44c68c5402"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2908de82845a3cf7a7873d2c942b9304d78f977cc48f4e5d15fb20eed0047e82"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "74537866f5483c146ac1c3008c82e0e8d074d63fe332d9f7181dbe3bfc124c40cc7bc82650a5d598116714dee34474009a29c32254c6e2ff9bdd35f1f7dc89ed"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip67@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/co.nstant.in/cbor@0.9?type=jar",
+      "group" : "co.nstant.in",
+      "name" : "cbor",
+      "version" : "0.9",
+      "description" : "Java implementation of RFC 7049: Concise Binary Object Representation (CBOR)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "23a05b8deaf153d7a17ce353671770ce"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "06fdebc091a3b58c996018ab2cbb395917de0034"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5ef465c47e34c6b13f93ece2ff49e94b933d69cf9f172cc4997418303884da73"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "68035c10f68d8b08f71d3375234ac1b17352abf130a9a254dd823b6c66d15ba53552b5c2510035a9f50a7a2f742e515ebfeaaacf15eeb17c42d8251ff93c933b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "023fda829ad274e8df50591124794b9a0a816406e3219261625f3a1284927516a08a8ee4d3fc8b0d1f5304315780dd33"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e32bc96960d1cd0b383fc1075e6cf9032a5d54ee4691359ebc4fc2e2bca44c035ee2e164d72e74811dfce0c6ba0ef78f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0c7ba1c9015b04b9c88f80f3de5924ad806664bbd689fea2237b917960586c0e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "278c9dce8ab3637755f3a3af24097521f1fece634b391835339523e63bc338fe7febc24a9e3b68d0b24cf7e5f6e375d17ad99132447798b7d370c2839f72978b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/co.nstant.in/cbor@0.9?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/c-rack/cbor-java"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-common",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Common Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7826f331d010deb1b8140911e0229065"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6c4a911397afee78670c6a794134ec103eb36a20"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9851e35416a40e96bd95acf96934d9742170ff31bdc3ef60d39ee0797527f6b9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "bba2ec17a11055376f561dba940d84bcddf5ae8fd0416424c635b4466737cabd669dd08e18ff078c14a83761a3a4a3d4f15469109676e689df1c7c966056a45c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "797c72d96c7c483c73f398e14d459243457c3518dc291707bffedc2f0d0ce055e71a4a77a4b1b9d2440bfc677fe51220"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "1a2f1c83d8829447865e635f3110e63459ab037777b5891e40ab4c63197893abde9f976679e73c9c5ed951cafb9e7136"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "cb9219a59a8aa9471bab5e9e14311ad5a87507cc82a61430ac155ab314d88e6f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fb766c6711f5d89359783f676c2be207591df45e657d29a4a0d3adce68a17ebc788c57b8b7320b3257843898fd58c11e49a690ab1771bd727ca0a615463d2903"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.0?type=jar",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.16.0",
+      "description" : "General data-binding functionality for Jackson: works on core streaming API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f9ae3e3bd773be8b474cb1b98dcf7ee6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3a6b7f8ff7b30d518bbd65678e9c30cd881f19a7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8aaf1753823be70b798290e5826ab5bfe015d35b3a36a5d3c2ec9f57d4b0138b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2f0a4211c1723bd88299380093a935840290694838a4c5ae0989bad46a615e02017b707ba7f3b825d0f0163f42a392efd0a1629024594992b5a4edee415c207a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8113432d108a152cd08ff4b12e4ea649d3240db070d3194a64712459436c1ea0c4b5362ec86ed076dc92c013215b043c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5f708bb3920dc2da40fab38218404760bb3c5aeabe361212bbfb0a0586d009e2d8724db7602694834d13f814c2683472"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "20e10ade4d4842297ccd29f20db6f9e8f1caf845fe99460a238bc6681a384da1"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e898514f8eb2e5c8ace07ff7c587408434eb4c330ea0067a01655be9d199e7fce59a8519869fd118cbcf86c019faccef6a6a2dfd3d79a454554ec0e1dafa739b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-databind"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-crypto",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Crypto Implementations",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d69a827616d67256ed3540a0216c3a07"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "461bc9815a980dad67bd7ec034b84a3c0628b69f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "642f9421540ad5961f42cd90450a3ce202cd0f0a4d6648f998a80434f0cc27af"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a8ec7bb3daf9c0c2008c3dabab88084a1a34c724f336aa974d56987d41640c49726475ab2b97db9651830cb67bbb3cda0be36f0c9622c9aaa6b8d6faffb62f74"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "459283396f57e34a140db2780cc3c9d759ded42c7fc0bfc527b35d324b8c80075ef729d831f59dae03e12296d786fae6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "eaac9b4cba6af899f73c61ad8793a4efec932f7ade18c9bba3b948544a81389f742cbfc26c187bd56055f139c2ac21c9"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3958dac95676ace2013adda6dd0250d30e98b8d68cff0f8b0a3a40a4c053880f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bb503050608cc9793b8c137a3c685d426c45bd876431a04cd48a773cef0a597bfe4914d62db37b5362fd1f160c2d7b965cbf1b7babea26e4ee2d2e777cb01526"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip30@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-cip30",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - CIP30 Implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "041e9279adf77b8c279597db408dee8a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c2f97c2cd9f641883c7e0225b7e78ba83c1a7fe7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "12779af2193083cbdb2f1c7846f368094bae75cd13dd88a6b3a1bc0c4186cea2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a02276c814901a3af3c21b81aeae8365aa46bd1b42117e19ea3c2b511b6ba08a6491236865e715c02d8e034277b7c9eef89f918cf6a3770289c1570a678df434"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8802c1fcb2448f3a1b79b137f8044f8a7e7063805705a60e096d55320d84d29b1b914da80e541dd7f7b5ab600977bcd0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5d29f7d115dd0ca64825df9414ab1c43cbe00c6c51e7199a791f15007cba097ae4362920b43bb5c4c664df16973d97de"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f586919a4f38453074421e57d277c82de2173e2eb54837fbc3baa4e8a646a564"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "572455ac6090ad560492f4199e4e9154789c8a0b06eae6b0f4bd1123e7ba2703b875a832f7795a7ac57f60f5da87b6026fc7f08016fbd198b0206084da1c1343"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip30@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.36.0?type=jar",
+      "group" : "com.google.errorprone",
+      "name" : "error_prone_annotations",
+      "version" : "2.36.0",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0e48e5ba2cd0a8d8d09bad849b99f6a6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "227d4d4957ccc3dc5761bd897e3a0ee587e750a7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "77440e270b0bc9a249903c5a076c36a722c4886ca4f42675f2903a1c53ed61a5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "bd6f5650902526d3db06aa1cc7bd36723658166acfabb823aca27d0b2c3814e83ae24a8217ce915c3e194c2c696a102580b4c21ef5dba61f7610bcb8d580f566"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a5cb9ba6b5bf550de90def11ec4bb014410a14949f8598856e1693e213ec0e7d2b3c6cb41b34ba8cfe209a29801de529"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "00492c18861d7d4fa5517ccf2bcc5c170b575ff9fe88fdc834827d9fc8747846d6345f5270c64dc130228f53ac96f1b6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ec8420b1f4e27c3eef932a764c4cedc8b3547e114285227ceb0612e93648ac29"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "344bc9be8f3417d4bc3e9e073bff4657aace3cac73e5ace038a11f1435d04d3182f344b8237cd6b311ab0748042a4c4f84259713ec2dcbe472c75cde2e787320"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.36.0?type=jar",
+      "modified" : false
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.81.1?type=jar",
+      "group" : "org.bouncycastle",
+      "name" : "bcutil-jdk18on",
+      "version" : "1.81.1",
+      "description" : "The Bouncy Castle Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls. This jar contains APIs for Java 1.8 and later.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "dc3fee5b11f55446c1f3197b8c519624"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cd685b869ed03e8557674f00969e66e0e2ccf3aa"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c7c5bea9de6625d66b5bce347c59ada8454a613f1979fd6a12abcde286790d46"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ea9bb9e615f682a3f2e84e80f239739707a1ef9580aa2e405275390dc5f7ba392e3beb6bd495f19e104ad64faa61249c0b53132328868b4390f4bdfd526c2f0c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "35fed6a19e8343b6a67d6d0e87917309fd2e7713d155cc8185fe51da786ed1b6e235f4a472179deb74b02e7adfe20152"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2e9b096c61a8865867538c97b51739d40413cf727b74e0a1ee23ad908f7c97b5a40d0575c5d166e78e964d4af38c1bfb"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2d391e79b6ab8d48519e6331d3f5188ae69c468e698f1d23c9b89ad0c5f6f943"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "940a1a44f3df96336a0d1488191f2b4e66395abc33f3f402817ba2e272b5139844574531d972e4e393dc94284090fc17db6ac0bc5e3e049a6681e770ce20d7e9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Bouncy Castle Licence",
+            "url" : "https://www.bouncycastle.org/licence.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.81.1?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/bcgit/bc-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bcgit/bc-java"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.10?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib",
+      "version" : "1.9.10",
+      "description" : "Kotlin Standard Library for JVM",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "da8348128b101f854fafa9a31e3806bd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "72812e8a368917ab5c0a5081b56915ffdfec93b7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "55e989c512b80907799f854309f3bc7782c5b3d13932442d0379d5c472711504"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6eab000f55dd196a074d1d97df9d285bccace31f0cae8db1846b1c9a55a6ea5e401307a95922a1d758b4152916de47fe36d31551ad0250918e6e07ce710a83a2"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5f34959bd398c5e6c15d8caa21068b337b851fdd8ae7ebc915853909d71d3fedd2e6542e63730c5199cbcc03b48f5e81"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "afea5f6f39a136a859d8f3d1ae5ee1e8cf7356b4069b0a41f77069a7d001f0ba402c666286296a0c609fca25b277d210"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2d7bd20511dd96069425e81bdb03573bca1f9e0a4b95bc64d061c349db84cb4d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c45aa810f250916e3839de5cb1cff99cd482cf6c693540842be9f8e18aa6c238271da00e2af85897687c29d3795a810404780050539cfa24fa82da27eb8c3a1f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.10?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/JetBrains/kotlin"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.squareup.retrofit2/converter-jackson@2.9.0?type=jar",
+      "group" : "com.squareup.retrofit2",
+      "name" : "converter-jackson",
+      "version" : "2.9.0",
+      "description" : "A Retrofit Converter which uses Jackson for serialization.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cd5b07f9feb365f9d082cb1791e3fe86"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "19b4010914e747601e26f46c6a403044bbe0b2bf"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7d94ccd114408ce1b1e30c52d0e412acf3285ea2d3debd734d17558a629c3b28"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "02602c4098227f0cd5e4d834647bf3b1cd276021902461662746c821497aca440187a10dc0be9dddebe85af17e447bf1f75ea454e51c72fca29efef208b9185f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9866f6cb1d29747ab7b7fedbf6ae05bff52f7cddeb61cb19e55ab1754a3399bf03d0101db113fcb5fba515c5b6622837"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "499a137bf604a9223aab44750168a39095d610d30908991d798bb4e9daf8d941c8521d26a00183551089b7e24f11835f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "310e6e2dc022d23700271a73eb28ae70341a8cd4d973d54a33423f07f86ba0b4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "def19278b60d35a9d904667e5efc9084dd3ced774b231f9481c2d22c5fdadf132363ebdc38561cd373fdabaaf7fffe3b27853d6c34819b7a6ea72df20e34e0a4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.squareup.retrofit2/converter-jackson@2.9.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/square/retrofit/"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-core",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Core Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "097056621eeb74186bb6b46a47d220ad"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b4aca065cc3c5f79be70570f48c2ec5bbac3f0f1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e33395021ed40ecfdea195a6b1e22f2fe3308e3b29f595ce15c4caf8ef59e80f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e2664d625ad19400d2b9723902a95faaab12542988374f7712bf46ba39643211533f1123675596c0c0599dd09e0ecb69ac22fccbf246c0b35d7ba3afaf71110a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1c7c249a57733c0dcb53e6fece99007801e35b113b8edd8298239f4187e3cda923ec93d88fcd23bdc76de2dc0b841535"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b7b24d9a4c8a20012733fb45e486570201814ac0c8cbd6b691df6f651d137c8f3e410c9a7e182638a4db354eb9bef3f0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9e7ece344ddf20e2ab2465cab3bddb8224fcd2b65a686a25f908ccbb5ca0329a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "30c1b427c82c93d3ab97363ff085bd2ee9fc6beee24af8602a5df2d749c671e4e9e8446a480c85b99e5b7f037461645c3c93f35ef8a6dd000d8b6cf41c0b03c3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-coinselection@0.6.2?type=jar",
+      "group" : "com.bloxbean.cardano",
+      "name" : "cardano-client-coinselection",
+      "version" : "0.6.2",
+      "description" : "Cardano Client Lib - Coinselection Module",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "96f027118dd3afa7b7225a6d80a8aa7f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6d75b003d1db14b98c9ec323aa28b25d0840b1da"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "51a8d5156bed5f5f44a4243ed7c86eb736b562c7d7877a42a90b4560eaaba983"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1a0f0bc2e6c0716dea9ebdd746392f6b2def8454930a551ae8a58eaea5407474e504b2b71791f651c3edd32aafad2fea0db325a3715590de60126f6fe6d1bf9c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1406dd2739e446c2c00236d86bf754d2ea8c633e1573cc572c2c42ca45ade86a0c48c21052f3bbcadbd7359e5ef851cb"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0fcc915ca9ddacbcff6d12d48ba71ed07eaa5d49b6a67c118bc6271e1f2900de62e022cf935671a4d09132c2c1995f57"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d7249f9acc6f34918aba4e3a014ec91b43280b5d9eb6afd23f971660cc9d0861"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "98ee81ac67c7d409deaee7e9282af413febc94bc6025d4e5251e96483d5fbf9d52489b60b126a52572fcbc3e9422d3f58c9326409d5a155bce44b1c413135830"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.bloxbean.cardano/cardano-client-coinselection@0.6.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bloxbean/cardano-client-lib"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "2.0.11",
+      "description" : "The slf4j API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "90c46a2d4613049843c804867321e6a7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ad96c3f8cf895e696dd35c2bc8e8ebe710be9e6d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ce0e71d673acb9036bb55d0244b261cf033f8e4c1245f14f931dfb1937dd4c95"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a7fff0928a5f27a5bd45f9bfde7d24e4fc64b678d2f972b80162b42d7fddda5eb309aaf5d8780d0d018425b8c01c1859b0c925e26690cd8f0af41212fd035920"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b8618ec12f84fef03e566a909a149f3ac2b72f7ea4b2bc8b45c6d604b5a7e1f628b781a7e177041467f0919cf3195da7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "bed3dfc5d1215f8a8143495614912d9beca7642c2ba863985c7e4e515c30a6f78ffbb18fbe4a5886dcff637f6c0fa2fc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b4b4f48729e7f5dc4dfb9b813fdee6b9045dec0f4957cc42bce9ed145a02816d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4eee9b9e5db7c5f8ec9c554eb7c2160472ed7eb4404c44eafd314c126830af6d53f76b3c6f4a53872f2d23369dd56b0a4cd56fa69e3489c9ed69b993cad30e05"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+      "modified" : false
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.bouncycastle/bcpg-jdk18on@1.81?type=jar",
+      "group" : "org.bouncycastle",
+      "name" : "bcpg-jdk18on",
+      "version" : "1.81",
+      "description" : "The Bouncy Castle Java APIs for the OpenPGP Protocol. The APIs are designed primarily to be used in conjunction with the BC Java provider but may also be used with other providers providing cryptographic services.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a374dc008c3034172bf2d8d8e015684c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7cd50193dd6a080a203716d993f7a246c8d94291"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ac2ddae3a844c1e2378604616dbe7cc17c64caaf9115d8c9c3b29db8b2982411"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7897acf8ea0d429f7cdfbd2148b7d1a444d70abc74b5447805d58ce4c774292fec30b76f6cf7b3d2e3789e875018823c56b8123c83e1b4f794b2c3bab2efc85c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5e58f92d367183a87e881793e74931a518c036a89dbff03028aab0a6c189deb379775dbdd8579080fb5d6895f554ce8b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6c2e2838d4490f2bc175190beb459a8386fb2e05fc809c475638a2fe23a9d31044816ccdc8659c4c516462cb17105f29"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "428b28bbecda934c033e77091d547ed7e926696f7b919207800b7e15759ed6dc"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e46cb1ca7f5f446278568720abdd937361697b0e2fbeca5adc4d374a799795ab744b1b323afb85d17657894fd5fa12955b394b69ab5498be54de721af6536b2f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Bouncy Castle Licence",
+            "url" : "https://www.bouncycastle.org/licence.html"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.bouncycastle/bcpg-jdk18on@1.81?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/bcgit/bc-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bcgit/bc-java"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/co.nstant.in/cbor@0.9?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-address@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common-spec@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-backend-blockfrost@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-backend@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar",
+        "pkg:maven/com.squareup.retrofit2/converter-jackson@2.9.0?type=jar",
+        "pkg:maven/com.squareup.retrofit2/retrofit@2.9.0?type=jar",
+        "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-backend@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip20@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-metadata@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+        "pkg:maven/co.nstant.in/cbor@0.9?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip25@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-metadata@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+        "pkg:maven/co.nstant.in/cbor@0.9?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip27@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip25@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+        "pkg:maven/co.nstant.in/cbor@0.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip30@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip8@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+        "pkg:maven/co.nstant.in/cbor@0.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip67@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip68@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-transaction-spec@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-plutus@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip25@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip67@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip8@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+        "pkg:maven/co.nstant.in/cbor@0.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-cip@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip30@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip68@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip20@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip27@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip25@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip8@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip67@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-coinselection@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-core-api@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-common-spec@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+        "pkg:maven/co.nstant.in/cbor@0.9?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-core-api@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-transaction-spec@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-coinselection@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-core-api@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-governance@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-transaction-spec@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-address@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-plutus@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common-spec@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-metadata@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.81.1?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar",
+        "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.81.1?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+        "pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-function@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-governance@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-transaction-spec@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-lib@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-quicktx@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-function@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-cip@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-metadata@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-plutus@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common-spec@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-quicktx@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-backend@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-function@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-core@0.6.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.bloxbean.cardano/cardano-client-transaction-spec@0.6.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-address@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-plutus@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common-spec@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-metadata@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-crypto@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-common@0.6.2?type=jar",
+        "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.16.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.16.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.16.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.16.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.36.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+        "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.36.0?type=jar",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.j2objc/j2objc-annotations@3.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.googlecode.owasp-java-html-sanitizer/owasp-java-html-sanitizer@20211018.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.mendix/temp@1.0.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.bloxbean.cardano/cardano-client-backend-blockfrost@0.6.2?type=jar",
+        "pkg:maven/com.bloxbean.cardano/cardano-client-lib@0.6.2?type=jar",
+        "pkg:maven/com.google.guava/guava@33.4.7-jre?type=jar",
+        "pkg:maven/com.googlecode.owasp-java-html-sanitizer/owasp-java-html-sanitizer@20211018.2?type=jar",
+        "pkg:maven/commons-io/commons-io@2.17.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.18.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+        "pkg:maven/org.apache.pdfbox/pdfbox@2.0.30?type=jar",
+        "pkg:maven/org.bouncycastle/bcpg-jdk18on@1.81?type=jar",
+        "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.81?type=jar",
+        "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.81.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.10?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.squareup.retrofit2/converter-jackson@2.9.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.squareup.retrofit2/retrofit@2.9.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.squareup.retrofit2/retrofit@2.9.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-io/commons-io@2.17.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.18.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.commons/commons-lang3@3.18.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.pdfbox/fontbox@2.0.30?type=jar",
+      "dependsOn" : [
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.pdfbox/pdfbox@2.0.30?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.pdfbox/fontbox@2.0.30?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.bouncycastle/bcpg-jdk18on@1.81?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.81.1?type=jar",
+        "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.81.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.81?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.81.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.81.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.81.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.81.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.10?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.10?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.10?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.10?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.10?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10?type=jar",
+        "pkg:maven/org.jetbrains/annotations@13.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.11?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

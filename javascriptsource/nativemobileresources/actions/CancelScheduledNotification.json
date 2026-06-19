@@ -1,0 +1,5 @@
+{
+  "nativeDependencies": {
+    "@notifee/react-native": "9.1.8"
+  }
+}

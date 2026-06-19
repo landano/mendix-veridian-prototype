@@ -1,0 +1,308 @@
+@import "custom-variables.scss";
+@import  "phone";
+
+
+// #############################################
+// ##  Login Web                              ##
+// #############################################
+.page-login {
+    padding-top: 10%;
+    background: $bg-color;
+
+    .login-container {
+        .card {
+            min-width: 440px;
+        }
+        
+        .form-control {
+            width: 100%;
+        }
+    }
+
+    .social-container {
+        min-width: 440px;
+    }
+
+}
+
+.mx-page {
+    background: $bg-color;
+}
+
+// #############################################
+// ##  Sidebar                                ##
+// #############################################
+
+
+.sidebar-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 9px;
+    padding: 6px;
+
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-style: solid;
+    border-color: #CED0D380;
+
+    background: #FFFFFF4D;
+
+    .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+        padding: 0;
+
+        .card-image {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.logo-container {
+    background-color: #fff;
+}
+
+.mx-scrollcontainer-shrink {
+    .mx-icon-chevron-right {
+        transition: transform 0.5s ease;
+    }
+
+    .sidebar-footer {
+        .profile-header {
+            display: none;
+        }
+    }
+}
+
+.mx-scrollcontainer-shrink {
+  &.mx-scrollcontainer-open {
+    .mx-icon-chevron-right {
+      transform: rotate(180deg); /* Rotate 180 degrees to mirror */
+    }
+
+    .sidebar-footer {
+        padding: 10px;
+
+        .profile-header {
+            display: contents;
+        }
+    }
+  }
+}
+
+
+.card {
+    margin: 20px;
+    background-color: #FFFFFF99;
+    box-shadow: 0px 0px 5px 0px #0000001A;
+    border-radius: 10px;
+
+    &.margin-none {
+        margin: 0;
+    }
+
+    &.margin-horizontal-none {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+// #############################################
+// ##  Map                                    ##
+// #############################################
+.map-fullwidth {
+    width: 100%;
+    height: 100vh;
+
+    .search-bar-map {
+        position: absolute;
+        z-index: 1000;
+        left: 45%;
+        top: 20px;        
+        background-color: #0071BC80;
+        border-radius: 81px;
+
+        button {
+            border: none ;
+            border-radius: 0;
+            background-color: transparent;
+            color: white;
+        }
+        
+        button:first-of-type {
+            border-right: 1px white solid;
+        }
+    }    
+
+    .search-bar-filters {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%; // Adjust the width as needed
+        height: 100%;  
+        z-index: 1000;
+        // background-color: rgba($gray-lighter, 0.8);
+        background-color: #FFFFFF99;
+        width: 370px;
+        padding: 30px 20px;
+        box-shadow: 0px 0px 10px 0px #0000001A;
+        backdrop-filter: blur(50px);
+
+        .mx-radiogroup {
+            flex-wrap: wrap;
+        }
+
+    }
+
+    .map-detail-view {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+        height: 100%;
+        z-index: 1000;
+        // background-color: rgba($gray-lighter, 0.8);
+        background-color: #FFFFFF99;
+        width: 413px;
+        padding: 30px 20px;
+        box-shadow: 0px 0px 10px 0px #0000001A;
+        backdrop-filter: blur(50px);
+
+        .btn-close-circle {
+
+        }
+    }
+}
+
+// #############################################
+// ##  Tab View                               ##
+// #############################################
+
+.tabview {
+    background-color: #fff;
+    .mx-listview {
+
+        ul {
+            margin-bottom: 0;
+
+            li:first {
+                margin-left: 0px;
+            } 
+
+            li {
+                display: inline-block;
+                font-weight: bold;
+                //border-bottom: 3px solid $gray-primary;
+                border-left: 1px solid #0099FF26;
+                border-right: 1px solid #0099FF26;
+
+                &:hover, &.selected {
+                    // neccessary because some nitwit decided to but important into atlas core
+                    background-color: #0099FF26 !important;
+                    border-bottom: 3px solid $brand-primary;
+
+                }
+
+                .mx-dataview {
+                    padding: 20px 20px;
+                }
+
+                .badge {
+                    margin-left: 10px;
+                }
+                    
+            }
+
+
+        }
+    }
+}
+
+.search-bar {
+    background-color: #0099FF0D;
+}
+
+.buttons-spaced {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    button {
+    flex-grow: 1;
+    text-align: center;
+    }
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+// #############################################
+// ##  Wizard                                 ##
+// #############################################
+.wizard-body {
+    display: flex;
+    justify-content: center;
+    
+    .card {
+        min-width: 700px;
+    }
+
+    .mx-dataview {
+        width: 100%;
+    }
+
+}
+
+// #############################################
+// ##  Listview Card                          ##
+// #############################################
+.listview-card {
+    ul {
+        li {
+            &:hover {
+                .card {
+                // neccessary because some nitwit decided to put important into atlas core
+                background-color: #0099FF26 !important;
+                }
+
+            }
+
+        }
+    }
+    .selected {
+        .card {
+            border-left: $brand-primary 12px solid;
+        }
+    }
+}
+
+
+// #############################################
+// ##  Mendix Fixes                           ##
+// #############################################
+.mx-dataview {
+    height: auto;
+}
+
+.mx-listview-empty {
+    display: none;
+}
+
+// #############################################
+// ##  Navbar                                 ##
+// #############################################
+.tab-lined {
+    .nav-tabs {
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;        
+    }
+}
